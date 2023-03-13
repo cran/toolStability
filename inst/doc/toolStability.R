@@ -102,10 +102,3 @@ dplyr::glimpse(summary.table2)
 ### see how the choice of environments affect the data
 
 
-## ---- echo = FALSE, collapse = TRUE-------------------------------------------
-detach("package:toolStability", unload=TRUE)
-suppressPackageStartupMessages(library(toolStability))
-cit <- citation("toolStability")
-
-cit
-
